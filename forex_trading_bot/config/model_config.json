@@ -1,0 +1,21 @@
+{
+    "model_name": "Isotonic/flan-t5-base-trading_candles",  
+    "tokenizer_name": "Isotonic/flan-t5-base-trading_candles",  
+    "max_input_length": 512,  
+    "max_output_length": 64,  
+    "temperature": 0.7,  
+    "top_k": 50, 
+    "top_p": 0.95, 
+    "num_beams": 4, 
+    "repetition_penalty": 1.2, 
+    "use_gpu": true, 
+    "logging": {
+      "model_logs_enabled": true, 
+      "log_level": "INFO" 
+    },
+    "signal_generation": {
+      "input_template": "Forex trading signal for {symbol}: {data}", 
+      "output_labels": ["BUY", "SELL", "HOLD"], 
+      "confidence_threshold": 0.75 
+    }
+  }

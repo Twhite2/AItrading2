@@ -1,0 +1,25 @@
+{
+    "run_backtest": true,
+    "backtest_start_date": "2023-01-01",  
+    "backtest_end_date": "2023-12-31",  
+    "initial_balance": 10000.0,  
+    "data_source": "yahoo",  
+    "trading_frequency": "1d",
+    "strategy_parameters": {
+      "rsi_period": 14,  
+      "sma_period": 50,  
+      "macd_fast": 12,  
+      "macd_slow": 26,  
+      "macd_signal": 9  
+    },
+    "logging": {
+      "backtest_logs_enabled": true,  
+      "log_level": "INFO"  
+    },
+    "output": {
+      "save_backtest_results": true,  
+      "backtest_results_dir": "backtesting/backtest_results/",  
+      "generate_plots": true,  
+      "plots_dir": "backtesting/backtest_results/plots/"  
+    }
+  }

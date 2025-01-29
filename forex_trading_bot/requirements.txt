@@ -1,0 +1,36 @@
+# Core dependencies
+# python>=3.11.7
+
+# LLM and AI
+transformers
+torch
+
+# Technical Indicators
+TA-Lib
+
+# Data Fetching and Broker Integration
+websocket-client
+requests
+
+# Backtesting
+lumibot
+backtrader
+
+# Deployment
+fastapi
+uvicorn
+flask
+
+# Visualization
+matplotlib
+plotly
+
+# Utilities
+pandas
+numpy
+
+# Logging
+loguru
+
+# Additional utilities
+python-dotenv

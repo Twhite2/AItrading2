@@ -1,0 +1,27 @@
+{
+    "api_key": "your_deriv_api_key_here",
+    "api_secret": "your_deriv_api_secret_here",
+    "websocket_url": "wss://ws.binaryws.com/websockets/v3?app_id=your_app_id_here",
+    "polling_interval": 60,  
+    "commission_rate": 0.001,  
+    "start_api_server": false,  
+    "trading_parameters": {
+      "symbol": "frxEURUSD",  
+      "volume": 1.0,  
+      "leverage": 100,  
+      "max_trades_per_day": 10,  
+      "max_loss_percentage": 2.0,  
+      "max_win_percentage": 5.0  
+    },
+    "logging": {
+      "trade_logs_enabled": true,  
+      "commission_logs_enabled": true,  
+      "log_level": "INFO"  
+    },
+    "backtesting": {
+      "enabled": false,  
+      "start_date": "2023-01-01",  
+      "end_date": "2023-12-31",  
+      "initial_balance": 10000.0  
+    }
+  }
